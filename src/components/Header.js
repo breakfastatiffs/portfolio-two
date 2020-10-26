@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header () {
     return (
-        <main>
+        <header>
           <h1>Tiffany Summerford</h1>
           <h2>Software Engineer</h2>
           <ul>
@@ -16,6 +16,6 @@ export default function Header () {
               <button to='/contact'>Contact</button>
             </li>
           </ul>
-        </main>
+        </header>
     )
 }
