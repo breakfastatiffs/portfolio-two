@@ -1,4 +1,5 @@
 
+/* ---- HEADER ---- */
 header{
     display: inline-flex;
     justify-content: space-around;
@@ -33,3 +34,13 @@ header button{
     width: 75px;
     border-radius: 8px;
 }
+
+/* ---- ABOUT / BODY ---- */
+body{
+    display: flex;
+}
+
+body p{
+    margin: 50px 25px;
+}
+
