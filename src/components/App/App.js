@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from './components/Header'
-import About from './components/About'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Header from '../Header'
+import About from '../About'
+import Projects from '../Projects'
+import Contact from '../Contact'
 import './App.css'
 
 function App() {
