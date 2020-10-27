@@ -9,9 +9,9 @@ function App() {
   return (
     <main className='App'>
         <Header />
+        <Contact />
         <About />
         <Projects />
-        <Contact />
     </main>
   );
 }
