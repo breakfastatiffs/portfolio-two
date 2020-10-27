@@ -15,7 +15,7 @@ header{
 }
 
 header:hover{
-    
+
 }
 
 header h1{
@@ -101,4 +101,17 @@ body{
 
 body p{
     margin: 50px 25px;
+}
+
+/* ---- PROJECTS ---- */
+.proOuter{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.proInner{
+    /* display: flex; */
+    flex: 2;
 }
