@@ -1,38 +1,68 @@
+/* APP */
+:root{
+
+}
 
 /* ---- HEADER ---- */
 header{
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
-    margin: 0;
     background-color: red;
+    overflow: hidden;
 }
 
 header h1{
-    text-align: center;
-    margin: 25px;
-    margin-right: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
 }
 
 header h2{
-    margin: 25px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
 }
 
-header ul{
+/* ---- NAV ---- */
+
+nav{
+    float: left;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul{
     list-style: none;
-    display: inline-flex;
-    padding: 0;
-    margin-right: 25px;
-    margin-left: 15px;
 }
 
-header li{
-    margin: 30px 5px;
+nav button{
+    margin: 0;
 }
 
-header button{
-    height: 40px;
-    width: 75px;
-    border-radius: 8px;
+.dropContent{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px, 8px, 16px, 0px black;
+    z-index: 1;
+}
+
+.dropContent a{
+    float: none;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.show{
+    display: block;
+}
+
+.dropContent:hover .dropContent {
+    display: block;
 }
 
 /* ---- ABOUT / BODY ---- */
@@ -43,4 +73,3 @@ body{
 body p{
     margin: 50px 25px;
 }
-
