@@ -1,7 +1,7 @@
 import React from 'react'
-import alt from '../screenshots/alt.JPG'
-import ssr from '../screenshots/ssr.JPG'
-import ee from '../screenshots/ee.JPG'
+import alt from '../photos/alt.JPG'
+import ssr from '../photos/ssr.JPG'
+import ee from '../photos/ee.JPG'
 
 export default function Projects() {
     return (
@@ -30,8 +30,8 @@ export default function Projects() {
             </div>
 
             <div className='proInner'>
-            <h3>Spanish SR</h3>
-                <img src={ssr} alt='Spanish SR screenshot'/>
+            <h3>Spanish SRS</h3>
+                <img src={ssr} alt='Spanish SRS screenshot'/>
                 <p>Spaced repetition is an advanced learning technique that enhances ones learning through an algorithm based upon repetition. The learner is quizzed on a sequence of words and when the learner answers incorrectly, they will see the word within a shorter time period versus if they answer correctly, they will see the word in a longer time period. With the number of Spanish speakers on the rise and halloween right around the corner, Spanish SRS was built with amusement and utility in mind.</p>
                 <p>Front End: React, JavaScript, Cypress, CSS3, HTML5, Vercel</p>
                 <p>Back End: Express, JavaScript, PostgreSQL, Heroku, Mocha & Chai</p>

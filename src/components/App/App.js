@@ -7,12 +7,14 @@ import './App.css'
 
 function App() {
   return (
-    <main className='App'>
-        <Header />
+    <>
+      <Header />
+      <main>
         <Contact />
         <About />
         <Projects />
-    </main>
+      </main>
+    </>
   );
 }
 export default App;

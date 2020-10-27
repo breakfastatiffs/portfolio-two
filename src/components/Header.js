@@ -9,7 +9,6 @@ export default function Header () {
     return (
         <header>
           <h1>Tiffany Summerford</h1>
-          <h2>Software Engineer</h2>
           <nav>
           <ul>
             <li>
