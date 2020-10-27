@@ -1,4 +1,5 @@
 import React from 'react'
+import { useSpring, animated } from 'react-spring'
 
 export default function Header () {
     function toggleShow(e) {
@@ -7,9 +8,8 @@ export default function Header () {
     }
     return (
         <header>
-          <h1>Tiffany Summerford</h1>
+          <h1 >Tiffany Summerford</h1>
           <h2>Software Engineer</h2>
-
           <nav>
           <ul>
             <li>

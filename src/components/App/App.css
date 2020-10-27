@@ -1,24 +1,45 @@
 /* APP */
 :root{
-
+    font-family: 'Roboto';
+    font-weight: 800;
+    letter-spacing: .7px;
+    color: black;
 }
 
 /* ---- HEADER ---- */
 header{
     display: flex;
     justify-content: space-around;
-    background-color: red;
+    background: linear-gradient(90deg, #ffadadff, #ffd6a5ff, #fdffb6ff, #caffbfff, #9bf6ffff, #a0c4ffff, #bdb2ffff, #ffc6ffff);
     overflow: hidden;
 }
 
+header:hover{
+    
+}
+
 header h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Pacifico';
+    font-size: 3em;
+    letter-spacing: 1px;
     margin: 15px;
+    color: #fffffcff;
+    -webkit-text-stroke: 1px #030014;
+}
+
+header h1:hover{
+    cursor: pointer;
+    text-shadow: 2px 5px #FFFFEB;
 }
 
 header h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lobster Two';
+    font-size: 2em;
+    font-weight: 500;
     margin: 15px;
+    margin-top: 30px;
+    color: #fffffcff;
+    -webkit-text-stroke: 1px #030014;
 }
 
 /* ---- NAV ---- */
@@ -39,7 +60,15 @@ nav ul{
 }
 
 nav button{
-    margin: 0;
+    font-size: 2em;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #fffffcff;
+    color: #030014;
+}
+
+nav button:hover{
+    cursor: pointer;
 }
 
 .dropContent{
