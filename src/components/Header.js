@@ -12,7 +12,7 @@ export default function Header () {
           <nav>
           <ul>
             <li>
-              <button onClick={(e)=> toggleShow(e)}>♙</button>
+              <button onClick={(e)=> toggleShow(e)} className='fa fa-bars'></button>
             </li>
             <div className='dropContent' id='dropContent'>
                 <li>
