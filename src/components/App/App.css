@@ -57,7 +57,7 @@ nav ul{
 
 nav button{
     font-size: 2em;
-    padding: 15px;
+    padding: 10px;
     border-radius: 50%;
     background-color: #fffffcff;
     color: #ffdd00ff;
@@ -118,6 +118,10 @@ body p{
 
 .proInner a{
     margin: 5px;
+}
+
+img{
+    width: 50%;
 }
 
 /* ---- CONTACT ---- */
