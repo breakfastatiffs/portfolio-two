@@ -2,6 +2,7 @@ import React from 'react'
 import alt from '../photos/alt.JPG'
 import ssr from '../photos/ssr.JPG'
 import ee from '../photos/ee.JPG'
+import { useSpring, animated } from 'react-spring'
 
 export default function Projects() {
     return (

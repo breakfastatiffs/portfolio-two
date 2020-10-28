@@ -16,13 +16,16 @@ export default function Header () {
             </li>
             <div className='dropContent' id='dropContent'>
                 <li>
-                  <a to='/about'>About</a>
+                  <a href='mailto:TiffanySummerford@gmail.com?subject=Great%20Portfolio!' class='fa fa-envelope'>Email</a>
                 </li>
                 <li>
-                  <a to='/projects'>Projects</a>
+                  <a href='https://docs.google.com/document/d/197BVM5qzyqYR3YKwqyubg3gBn4josekLuRtmG_Cyh0o/edit?usp=sharing' target='_blank' className='fa fa-folder-open-o'>Resume</a>
                 </li>
                 <li>
-                  <a to='/contact'>Contact</a>
+                  <a href='https://github.com/breakfastatiffs/' target='_blank' className='fa fa-github-alt'>GitHub</a>
+                </li>
+                <li>
+                  <a href='https://www.linkedin.com/in/tiffany-summerford' target='_blank' className='fa fa-linkedin-square'>LinkedIn</a>
                 </li>
             </div>
           </ul>
