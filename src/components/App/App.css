@@ -4,6 +4,9 @@
     font-weight: 800;
     letter-spacing: .7px;
     color: black;
+    max-width: 1500px; 
+    margin: 0 auto !important; 
+	float: none !important; 
 }
 
 a{
@@ -25,6 +28,7 @@ header{
     display: flex;
     justify-content: space-between;
     background: linear-gradient(90deg, #d3a03bff, #e8b041ff, #ffc247ff, #ffc847ff, #ffce47ff, #ffd447ff, #ffd947ff, #ffdf47ff, #ffe547ff, #ffea6cff);
+    margin: 0 auto;
 }
 
 header h1{
@@ -111,11 +115,15 @@ body{
 }
 
 body p{
-    margin: 50px 25px;
+    margin: 40px 25px;
+    padding: 10px;
 }
 
 .selfie{
     width: 25%;
+    min-width: 250px;
+    max-height: 250px;
+    justify-content: center;
 }
 
 /* ---- PROJECTS ---- */
@@ -142,6 +150,7 @@ body p{
 
 .proInner p{
     text-align: left;
+    margin: 20px 0;
 }
 
 .proInner a{
@@ -160,11 +169,25 @@ body p{
 /* ----MEDIA QUERY---- */
 @media (max-width: 600px) {
 
+    /* ----APP---- */
     main{
         margin-left: 15px;
         margin-right: 15px;
     }
 
+    /* ----ABOUT---- */
+    body{
+        display: block;
+    }
+
+    .selfie{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+
+    /* ----PROJECTS---- */
     .proOuter {
         flex-direction: column;
     }
