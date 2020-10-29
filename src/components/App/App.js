@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../Header'
 import About from '../About'
 import Projects from '../Projects'
 import Header2 from '../Header/Header2'
