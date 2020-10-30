@@ -147,6 +147,16 @@ body{
   display: flex;
 }
 
+.body-p{
+  font-size: 1em;
+  margin-top: 90px;
+}
+@media screen and (max-width: 600px) {
+  .body-p{
+    margin: 0;
+  }
+}
+
 body p{
   margin: 40px 25px;
   padding: 10px;
