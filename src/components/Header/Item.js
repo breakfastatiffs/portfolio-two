@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import '../App/App.css'
 
 export default class Item extends Component {
     constructor(props){

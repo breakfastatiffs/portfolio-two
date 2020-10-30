@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import '../App/App.css'
 
 export default class Lead extends Component {
     constructor(props) {
