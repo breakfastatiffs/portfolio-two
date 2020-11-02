@@ -3,7 +3,7 @@ import selfie from '../photos/selfie.JPG'
 
 export default function About() {
     return (
-        <section>
+        <section className='about-sect'>
             <img src={selfie} alt='self potrait of Tiffany Summerford' className='selfie'/>
             <p className='body-p'>My names Tiffany Summerford and I'm a full-stack engineer from the Greater Boston area. 
                 As a retired bartender with a "minor in marketing", I hold the skills to communicate effectively with a team, the creativity to design apps and the wit to absolve problems quickly. 
