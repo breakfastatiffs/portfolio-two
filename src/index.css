@@ -4,14 +4,14 @@
   place-items: center;
   height: 100vh;
 } */
-
+ 
 body {
   /* display: flex; */
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+ 
 :root{
   /* display: flex; */
   font-family: 'Roboto';
@@ -19,7 +19,7 @@ body {
   letter-spacing: .7px;
   display: flex;
 }
-
+ 
 a{
   color: #008081;
   text-decoration: none;
@@ -28,27 +28,27 @@ a{
     -o-transition: color 0.3s, font-size 0.3s;
        transition: color 0.3s, font-size 0.3s;
 }
-
+ 
 a:hover{
   color: #000000;
 }
-
+ 
 main{
   margin-left: 8px;
   margin-right: 8px;
 }
-
+ 
 img{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-
+ 
 /* ---- HEADER ---- */
 .clear-fix {
   clear: both;
 }
-
+ 
 .top-menu {
   background: linear-gradient(90deg, #d3a03bff, #e8b041ff, #ffc247ff, #ffc847ff, #ffce47ff, #ffd447ff, #ffd947ff, #ffdf47ff, #ffe547ff, #ffea6cff);
   padding: 20px 10px 10px 10px;
@@ -57,7 +57,7 @@ img{
   display: flex;
   justify-content: space-around;
 } 
-
+ 
 .top-menu-lead {
   font-family: 'Pacifico';
   font-size: 1.5em;
@@ -68,21 +68,21 @@ img{
   -webkit-text-stroke: .5px #030014;
   display: inline-flex;
 }
-
+ 
 .top-menu  > .top-menu > .right {
   display: none;
 }
-
+ 
 .top-menu-icon{
   cursor: pointer;
   font-size: 1em;
   position: static;
 }
-
+ 
 .top-menu-item{
   display: none;
 }
-
+ 
 .top-menu a{
   font-size: .9em;
   text-decoration: none;
@@ -90,25 +90,25 @@ img{
   text-shadow: 1px 1px #FFFFEB;
   font-weight: 800;
 }
-
-
+ 
+ 
 .top-menu.toggled *:not(.top-menu-lead):not(.top-menu-icon) {
   display: list-item;
   list-style: none;
   margin-top: 25px;
 }
-
+ 
 @media screen and (min-width: 500px){
   .clear-fix {
     clear: both;
   }
-
+ 
   .top-menu-item{
     text-align: center;
     display: inline-flex !important;
     padding: 20px 10px;
   }
-
+ 
   .top-menu .top-menu-icon {
     padding: 10px;
     position: absolute;
@@ -124,23 +124,23 @@ img{
     cursor: pointer;
   }
 }
-
+ 
 /* ---- ABOUT / BODY ---- */
-
+ 
 .about-sect{
   margin: 15px;
   padding: 8px;
   border-radius: 15px;
   background-color: #f9f9f9;
 }
-
+ 
 .body-p{
   margin-top: 2em;
   font-size: .8em;
   line-height: 1.5em;
   font-size: .8em;
 }
-
+ 
 .selfie{
   display: block;
   margin-left: auto;
@@ -148,7 +148,7 @@ img{
   margin-top: 5px;
   width: 50%;
 }
-
+ 
 /* ---- PROJECTS ---- */
 .pro-outer{
   display: flex;
@@ -156,7 +156,7 @@ img{
   flex-direction: column;
   text-align: center;
 }
-
+ 
 .pro-inner{
   display: inline-flex;
   flex-direction: column;
@@ -165,7 +165,7 @@ img{
   border-radius: 15px;
   background-color: #f9f9f9;
 }
-
+ 
 .pro-inner h3{
   font-family: 'Lobster';
   font-size: 1.5em;
@@ -174,7 +174,7 @@ img{
   border-bottom: #FFF solid 5px ;
   -webkit-text-stroke: .9px #030014;
 }
-
+ 
 .pro-inner p{
   padding-left: 20px;
   padding-right: 20px;
@@ -183,58 +183,58 @@ img{
   line-height: 1.6em;
   font-size: .8em;
 }
-
+ 
 .pro-inner a{
   margin: 3px;
   font-size: .9em;
 }
-
+ 
 hr.style {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
-
 /* ----MEDIA QUERY---- */
-@media (min-width: 600px) {
+
+@media screen and (min-width: 600px) {
   main{
     margin-left: 45px;
     margin-right: 45px;
   }
-
+ 
   .about-sect{
     display: flex;
-    flex: 1;
-    margin-left: 100px;
-    margin-right: 100px;
+    flex-direction: row;
   }
+
   .selfie{
-    max-width: 25%;
-    display: inline-flex;
-    flex: 1;
-    margin-bottom: 30px;
+    display: none;
   }
+
+  .top-menu-lead{
+    font-size: 2em;
+  }
+
   .body-p{
-    display: inline-flex;
-    flex: 2;
-    padding-top: 70px;
     margin: 50px;
   }
   .pro-inner p, .pro-inner a, .body-p{
     font-size: 1em;
   }
+
   /* ----PROJECTS---- */
   .pro-outer {
       flex-direction: row;
       justify-content: center;
   }
-  .pro-inner{
-    min-width: 375px;
-    max-width: 375px;
-  }
+
   .pro-inner h3{
-    font-size: 2em;
+    font-size: 1.2em;
   }
+}
 
-
+@media screen and (min-width: 1000px) {
+  .pro-inner h3{
+    font-size: 1.5em;
+  }
 }
