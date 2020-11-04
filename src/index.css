@@ -169,10 +169,9 @@ img{
 .pro-inner h3{
   font-family: 'Lobster';
   font-size: 1.5em;
-  color: #FFF;
   padding-bottom: 15px;
   border-bottom: #FFF solid 5px ;
-  -webkit-text-stroke: .9px #030014;
+  -webkit-text-stroke: .5px #030014;
 }
  
 .pro-inner p{
