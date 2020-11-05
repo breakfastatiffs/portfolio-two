@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [Altergencies](https://nhresource-client.vercel.app/)
 
-- 🌱 I’m currently learning **on Udemy and Scrimba to cover some basics on React and Algorithns.**
+- 🌱 I’m currently learning **on Udemy and Scrimba to cover some basics on React and Algorithms.**
 
 - 👨‍💻 All of my projects are available at [https://tiffanysummerford.breakfastatiffs.vercel.app/](https://tiffanysummerford.breakfastatiffs.vercel.app/)
 
@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **tiffanysummerford@gmail.com**
 
-- 📄 Know about my experiences [https://docs.google.com/document/d/197BVM5qzyqYR3YKwqyubg3gBn4josekLuRtmG_Cyh0o/edit?usp=sharing](https://docs.google.com/document/d/197BVM5qzyqYR3YKwqyubg3gBn4josekLuRtmG_Cyh0o/edit?usp=sharing)
+- 📄 Know about my experiences [https://docs.google.com/document/tiffany-summerford-resume](https://docs.google.com/document/d/197BVM5qzyqYR3YKwqyubg3gBn4josekLuRtmG_Cyh0o/edit?usp=sharing)
 
 - ⚡ Fun fact **I love music, art, and social justice!**
 
