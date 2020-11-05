@@ -25,7 +25,7 @@ export default function Projects() {
             <h3>Endless Encounters</h3>
                 <img src={ee} alt='Endless Encounters screenshot'/>
                 <p></p>
-                <a href='https://endless-encounters.vercel.app/' className='fa fa-share-alt' target='_blank'> Live App</a>
+                <a href='https://endless-encounters-chi.vercel.app/' className='fa fa-share-alt' target='_blank'> Live App</a>
                 <a href='https://github.com/EndlessEncounters/client' className='fa fa-github-alt' target='_blank'> GitHub Client</a>
                 <a href='https://github.com/EndlessEncounters/server' className='fa fa-github-alt' target='_blank'> GitHub Server</a>
                 <hr className='style' />
