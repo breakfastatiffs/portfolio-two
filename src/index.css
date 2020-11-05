@@ -236,4 +236,13 @@ hr.style {
   .pro-inner h3{
     font-size: 1.5em;
   }
+
+  .top-menu-lead{
+    font-size: 2.3em;
+  }
+
+  .top-menu a{
+    font-size: 1.05em;
+    font-weight: 800;
+  }
 }
