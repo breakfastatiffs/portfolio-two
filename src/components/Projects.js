@@ -25,9 +25,9 @@ export default function Projects() {
             <h3>Endless Encounters</h3>
                 <img src={ee} alt='Endless Encounters screenshot'/>
                 <p></p>
-                <a href='https://endless-encounters-chi.vercel.app/' className='fa fa-share-alt' target='_blank'> Live App</a>
-                <a href='https://github.com/EndlessEncounters/client' className='fa fa-github-alt' target='_blank'> GitHub Client</a>
-                <a href='https://github.com/EndlessEncounters/server' className='fa fa-github-alt' target='_blank'> GitHub Server</a>
+                <a href='https://endless-encounters.vercel.app/' className='fa fa-share-alt' target='_blank'> Live App</a>
+                <a href='https://github.com/Nvlt/endless_encounters_client' className='fa fa-github-alt' target='_blank'> GitHub Client</a>
+                <a href='https://github.com/Nvlt/endless_encounters_server' className='fa fa-github-alt' target='_blank'> GitHub Server</a>
                 <hr className='style' />
                 <p>Endless Encounters is a text-based RPG ("Role-Playing Game") developed by EE: John Pendergast, Alexis Felts, Scott Whiteman, and Tiffany Summerford. Once you're in, you can explore a whole new world in search of ravenous enemies to duel swords with or visit the tavern to discuss rumors. Endless Encounters includes randomly generated events and actions/abilities to react with.</p>
                 <p>FrontEnd: JavaScript, React, CSS 3, HTML 5, and Jest.</p>
